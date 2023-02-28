@@ -19,9 +19,9 @@ void display(void)
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 	glPolygonMode(GL_FRONT_AND_BACK, GLU_LINE);
-	glColor3f(0.5, 0.2, 0.9);
-	MyCircle(0.5, 0, 0.4);
-	MyCircle(-0.5, 0, 0.4);
+	glColor3f(0.1, 0.7, 0.4);
+	MyCircle(0.3, 0, 0.4);
+	MyCircle(-0.3, 0, 0.4);
 	glutSwapBuffers();
 }
 int main(int argc, char **argv)
